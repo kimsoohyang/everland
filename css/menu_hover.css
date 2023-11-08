@@ -1,0 +1,52 @@
+/*  CSS Document  */
+@charset "utf-8";
+
+/*  여백 초기화  */
+*{margin:0; padding:0;}
+
+/*  목록 블릿 없애기  */
+ol, ul{list-style:none;}
+
+/*  하이퍼링크 설정  */
+a:link{text-decoration:none; color:#000;}
+a:visited{text-decoration:none; color:#000;}
+a:hover{text-decoration:none; color:#000;}
+a:active{text-decoration:none; color:#000;}
+
+body{font-family:"arial";
+	font-size:16px;
+	line-height:26px;
+	color:#333;}
+#gnb{width:1200px;
+	margin:auto;
+	text-transform:uppercase;
+	text-align:center;}	
+#gnb>li{float:left;
+		width:25%;}
+#gnb>li>a{display:block;
+		font-size:25px;
+		padding:20px 0 0;}
+#gnb>li>a:hover{color:pink;}
+.solid{width:50%;
+		margin:auto;
+		margin-top:20px;
+		height:5px;
+		background:pink;
+		visibility:hidden;
+		opacity:0;
+		transform:scaleX(0);
+		transition-property:opacity, transform;
+		transition-duration:0.5s;}
+#gnb>li>a:hover .solid{transform:scaleX(1);
+						opacity:1;
+						visibility:visible;}		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
