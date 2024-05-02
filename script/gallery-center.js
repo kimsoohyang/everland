@@ -1,6 +1,6 @@
  $(function(){
  var swiper = new Swiper('.gallery-center_inner ', {
-    slidesPerView: 1,//보여지는 갤러리 수
+    slidesPerView: 4,//보여지는 갤러리 수
     spaceBetween: 30,//갤러리 사이 간격
     centeredSlides: false,//센터모드
     speed: 1500,//버튼을 슬라이드가 넘어가는 시간
